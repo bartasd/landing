@@ -1,0 +1,147 @@
+:root {
+    --width: 850px;
+}
+@font-face {
+    font-family: "Comfortaa-Bold";
+    src: url("./fonts/Comfortaa-Bold.ttf") format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Comfortaa-Light";
+    src: url("./fonts/Comfortaa-Light.ttf") format('truetype');
+    font-weight: lighter;
+}
+@font-face {
+    font-family: "Comfortaa-Medium";
+    src: url("./fonts/Comfortaa-Medium.ttf") format('truetype');
+    font-weight: medium;
+}
+@font-face {
+    font-family: "Comfortaa-Regular";
+    src: url("./fonts/Comfortaa-Regular.ttf") format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Comfortaa-SemiBold";
+    src: url("./fonts/Comfortaa-SemiBold.ttf") format('truetype');
+    font-weight: 600;
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: navy;
+}
+/* header selectors */
+
+header, .main_section {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: var(--width);
+    margin: 0;
+    margin-left: calc(50% - var(--width)/2);
+}
+
+.sml_txt{
+    background-color: #60267F;
+    height: 20px;
+    width: var(--width);
+    order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sml_txt p, .sml_txt a {
+    color:white;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.header_box{
+    background-color: chocolate;
+    height: 50px;
+    order: 2;
+    display: inline-block;
+}
+
+.logo{
+    font-size: 28px;
+    font-family: 'Comfortaa-SemiBold';
+    color: #60267F;
+    float: left;
+    margin-top: 9px;
+    margin-left: 44px;
+}
+
+.users_menu{
+    float: right;
+    display: flex;
+    margin-top: 2.5px;
+    margin-right: 15px;
+    column-gap: 18.5px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 45px;
+
+}
+
+.users_menu a, .users_menu p {
+    text-decoration: none;
+    font-size: 10px;
+}
+
+button{
+    height: 20px;
+    width: 70px;
+    border-radius: 2px;
+    border: solid 1px #60267F;
+    font-family: 'Comfortaa-SemiBold';
+    font-size: 10px;
+    color: #60267F;
+    padding: 4px;
+}
+
+/* main section selectors */
+
+.main_section{
+    height: 500px;
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+}
+section > p {
+    width: 730px;
+    background-color: chartreuse;
+    font-size: 28px;
+    /* font roboto */
+    text-align: center;
+    
+}
+
+.st_button{
+    width: 110px;
+    height: 30px;
+    background-color: #60267F;
+    color: white;
+}
+
+.nd_button{
+    width: 110px;
+    height: 30px;
+    background-color: white;
+    color: #60267F;
+}
+
+.mobile{
+
+}

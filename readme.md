@@ -1,18 +1,18 @@
-# REAL ESTATE
+# LANDING PAGE
 
-_MY SECOND PERSONAL FRONT-END PAGE FOR LEARNING PURPOSE_
+_MY FOURTH PERSONAL FRONT-END PAGE FOR LEARNING PURPOSE_
 
 ## ABOUT
 
-This page was built by [Denis Bashlaev](https://dribbble.com/DenisBashlaev) [design](https://dribbble.com/shots/10172325/attachments/2114690?mode=media).
+This page was built by figma.com [design](https://www.figma.com/file/9mV6rCFOEd1ptuZ4JBovVS/Collab-landing-page-design-(Community)?type=design&node-id=1-971&mode=design).
 
-Site is published and can be reviewed at: [link](https://bartasd.github.io/real_estate/)
+Site is published and can be reviewed at: [link](https://bartasd.github.io/landing/)
 
 ## PROJECT GOALS
 
-- Getting start with HTML structure.???
-- Baby steps with MD.???
-- Recreate design for Desktop view.???
+- To complete a course task for the school
+- Learn other positioning tools.
+- Try out font icons
 
 ## AUTHOR
 
