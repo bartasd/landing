@@ -40,7 +40,7 @@ body{
 }
 /* header selectors */
 
-header, .main_section {
+header, .main_section, .second_section {
     display: flex;
     flex-direction: column;
     height: 70px;
@@ -67,7 +67,7 @@ header, .main_section {
 }
 
 .header_box{
-    background-color: chocolate;
+    background-color: white;
     height: 50px;
     order: 2;
     display: inline-block;
@@ -103,7 +103,7 @@ header, .main_section {
 button{
     height: 20px;
     width: 70px;
-    border-radius: 2px;
+    border-radius: 4px;
     border: solid 1px #60267F;
     font-family: 'Comfortaa-SemiBold';
     font-size: 10px;
@@ -115,13 +115,13 @@ button{
 
 .main_section{
     height: 500px;
-    background-color: cornflowerblue;
+    background-color: white;
     justify-content: center;
     align-items: center;
 }
 section > p {
     width: 730px;
-    background-color: chartreuse;
+    background-color: white;
     font-size: 28px;
     /* font roboto */
     text-align: center;
@@ -129,6 +129,7 @@ section > p {
 }
 
 .st_button{
+    margin-top: 25px;
     width: 110px;
     height: 30px;
     background-color: #60267F;
@@ -143,5 +144,69 @@ section > p {
 }
 
 .mobile{
+    width: 250px;
+    height: 250px;
+    background-color: #60267f2d;
+    border-radius: 125px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    position:relative;
+}
 
+.mobile2{
+    width: 120px;
+    height: 260px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1.5px solid #60267F;
+    position: absolute;
+    left: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo2{
+    font-size: 28px;
+    font-family: 'Comfortaa-SemiBold';
+    color: #60267F;
+}
+
+.second_section{
+    height: 500px;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigger_text {
+    font-size: 22px;
+}
+
+.avatars{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+div > img {
+    height: 70px;
+}
+
+.help_section{
+    width: 100%;
+    height: 400px;
+    background-color: brown;
+}
+
+.help {
+    width: 280px;
+    height: 270px;
+}
+
+.cell_phone {
+    width: 170px;
+    height: 320px;
 }
