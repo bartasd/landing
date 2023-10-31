@@ -36,7 +36,7 @@ body * {
 }
 
 body{
-    background-color: navy;
+  /*  background-color: navy;*/
 }
 /* header selectors */
 
@@ -174,8 +174,8 @@ section > p {
 
 .second_section{
     margin-top: 15px;
-    height: 500px;
-    background-color: yellow;
+    height: 250px;
+  /*  background-color: yellow;*/
     align-items: center;
 }
 
@@ -197,8 +197,8 @@ div > img {
 
 .help_section{
     width: 100%;
-    height: 650px;
-    background-color: brown;
+    height: 1000px;
+ /*   background-color: brown; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,15 +208,14 @@ div > img {
     margin-top: 50px;
     width: 360px;
     height: 350px;
-    background-color: aqua;
     display: inline-block;
 }
 
 .help_cont{
     display: flex;
     flex-direction: row;
-    background-color: darkgreen;
-    height: 400px;
+   /* background-color: darkgreen; */
+    height: 800px;
     width: 800px;
     justify-content: space-around;
 }
@@ -224,9 +223,12 @@ div > img {
 .cell_phone {
     margin-top: 50px;
     width: 180px;
-    height: auto;
-    background-color: aqua;
+    height: 360px;
     display: inline-block;
+}
+
+.help_buttons {
+    border-radius: 25px;
 }
 
 .help_buttons > div{
@@ -243,5 +245,16 @@ div > img {
 }
 
 .help_notes {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: space-around;
+}
 
+.help_notes > p {
+    background-color: #F2F2F2;
+    margin: 5px;
+    padding: 10px;
+    font-size: 12px;
 }
