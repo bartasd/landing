@@ -135,11 +135,12 @@ section > p {
 }
 
 .st_button{
-    margin-top: 25px;
-    width: 110px;
+    margin-top: 30px;
+    width: 130px;
     height: 30px;
-    background-color: #60267F;
+    background-color: rgba(154, 84, 188, 1);
     color: white;
+    font-weight: bold;
 }
 
 .nd_button{
@@ -205,9 +206,26 @@ section > p {
 }
 
 .fifth_section {
-    background-color: blueviolet;
-    height: 600px;
+    margin-top: 500px;
+    background-color: #9A54BC;
+    height: 300px;
     align-items: center;
+    justify-content: center;
+}
+
+.fifth_section > p{
+    font-size: 39px;
+    background-color: #9A54BC;
+    color: white;
+}
+
+.fifth_section button{
+    border: 1.5px solid white;
+}
+
+.fifth_section button:hover{
+    background-color: white;
+    color: #9A54BC;
 }
 
 .sixth_section {
@@ -218,6 +236,7 @@ section > p {
 
 .bigger_text {
     font-size: 22px;
+    font-weight: bold;
 }
 
 .avatars{
@@ -422,7 +441,9 @@ div > img {
     border-radius: 6px;
 }
 
-
+.plans > div:last-child{
+    background-color: rgba(86, 230, 165, 1);
+}
 .plans p {
     font-size: 10px;
     color: rgba(0, 0, 0, 0.7);
@@ -473,13 +494,144 @@ div > img {
     margin-left: 20px;
 }
 
+.plans > div:last-child > .plans_button{
+    background-color: white;
+}
+
 .plans > div > p:nth-child(4){
     margin: 20px;
 }
 
 .lorem{
-    height: 380px;
+    height: 600px;
     width: 100%;
-    background-color: goldenrod;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lorem > div {
+    display: flex;
+    justify-content: center;
+}
+
+.lorem p{
+    font-size: 22px;
+    text-align: center;
+    color: rgba(225, 60, 90, 1);
+}
+
+.response{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.response > img {
+    height: 38px;
+    width: 38px;
+}
+
+.response > img:nth-child(3) {
+    transform: rotate(180deg);
+}
+
+.response > p{
+    width: 500px;
+    font-size: 11px;
+    text-align: center;
+    color: black;
+}
+
+.lorem > img {
+    margin-top: 40px;
+    height: 44px;
+    width: 44px;
+}
+
+.lorem > p
+{
+   font-size: 12px; 
+   color: black;
+}
+
+.join_us{
+    text-align: center;
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.join_us > :last-child {
     margin-top: 20px;
+    width: 630px;
+    height: 160px;
+    position: relative;
+}
+
+.join_us img{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+}
+
+.join_us > div > img:nth-child(2) {
+    width: 630px;
+    height: 160px;
+    left: 0;
+    top: 0;
+}
+
+.join_us > div > img:nth-child(3) {
+    left: -22px;
+    top: -22px;
+}
+
+.join_us > div > img:nth-child(4) {
+    left: 12%;
+    top: 60%;
+}
+
+.join_us > div > img:nth-child(5) {
+    left: 29%;
+    top: 43%;
+}
+
+.join_us > div > img:nth-child(6) {
+    left: 40%;
+    top: 80%;
+}
+
+.join_us > div > img:nth-child(7) {
+    left: 59%;
+    top: 74%;
+}
+
+.join_us > div > img:nth-child(8) {
+    left: 77%;
+    top: 73%;
+}
+
+.join_us > div > img:nth-child(9) {
+    left: 90%;
+    top: 73%;
+}
+
+.join_us > div > img:nth-child(10) {
+    left: 95%;
+    top: 35%;
+}
+
+.join_us button{
+    margin:0;
+}
+
+.join_us > div > :last-child{
+    font-size: 10px;
+    color: rgba(154, 84, 188, 1);
+    position: absolute;
+    left: 85%;
+    top: 25%;
 }
