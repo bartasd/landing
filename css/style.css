@@ -229,9 +229,38 @@ section > p {
 }
 
 .sixth_section {
-    background-color: cornflowerblue;
-    height: 600px;
-    align-items: center;
+    height: 550px;
+}
+
+.questions{
+    position: relative;
+    height: 290px;
+}
+
+.questions > div{
+    position: absolute;
+    width: 240px;
+    height: 120px;
+    left: 7%;
+    top: 22%;
+    text-align: center;
+}
+
+.questions p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.questions p:first-child {
+    font-size: 24px;
+    margin: 0;
+}
+
+.questions > img{
+    position: absolute;
+    width: 450px;
+    height: 290px;
+    left: 40%;
 }
 
 .bigger_text {
@@ -634,4 +663,70 @@ div > img {
     position: absolute;
     left: 85%;
     top: 25%;
+}
+
+.collab{
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: inline-block;
+}
+
+.collab > div{
+    display: inline-block;
+}
+
+.collab > div:first-child{
+    height: 210px;
+    width: 250px;
+    background-color: white;
+}
+
+.collab > div:first-child > :not(:first-child){
+    margin-top: 15px;
+}
+
+.collab > div:first-child > :nth-child(3){
+    font-weight: bold;
+}
+
+.collab > :first-child > div{
+    display: inline-block;
+}
+
+.collab > div:first-child img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.links{
+    display: inline-block;
+    align-items: center;
+}
+
+.links p{
+    margin-top: 20px;
+}
+
+.links div{
+    display: inline-block;
+    width: 148px;
+    height: 190px;
+    text-align: center;
+    color: #9A54BC;
+}
+
+.links > div > :first-child{
+    color: black;
+    font-weight: bold;
+}
+
+.collab > :last-child > p{
+    font-weight: bold;
+}
+
+.collab span {
+    font-weight: normal;
+    color: #60267F;
 }
