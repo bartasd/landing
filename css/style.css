@@ -429,6 +429,14 @@ div > img {
     color: #2B0236;
 }
 
+.subscription > :nth-child(1).invertM{
+    color: #2B0236;
+}
+
+.subscription > :nth-child(3).invertY{
+    color: #A79D9D;
+}
+
 .subscription > :nth-child(2)
 {
     width: 22px;
@@ -447,6 +455,10 @@ div > img {
     margin-left: 13px;
     margin-top: 3px;
     background-color: white;
+}
+
+.subscription > :nth-child(2) > div.clicked{
+    margin-left: 3px;
 }
 
 .subscription > :nth-child(4){
